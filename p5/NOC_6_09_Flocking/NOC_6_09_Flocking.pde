@@ -12,9 +12,17 @@ Flock flock;
 int isPaused = 1;
 
 void setup() {
-  size(900,900, P2D);
-  fullScreen();
+  //size(900,900, P2D);
+  //size(4096, 2160, P2D);
+  //size(8192, 4320, P2D); // ?lotsa k? 8k?
+  size(4069, 4320, P2D); // ?lotsa k? 1/2*8k?
+  
+
+
+  //size(900,900, P2D);
+  //fullScreen();
   flock = new Flock();
+  frameRate(30);
   // Add an initial set of boids into the system
   for (int i = 0; i < 600; i++) {
     Boid b = new Boid(width/2,height/2);

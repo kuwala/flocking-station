@@ -10,23 +10,23 @@ and evolved further on the go.
 
 ## project folder structure
 
-/p5
-/p5/serial-comminicator
-/p5/flocking-station
-/p5/flocking-station/data
-/p5/flocking-station/temp-data
+- /p5
+- /p5/serial-comminicator
+- /p5/flocking-station
+- /p5/flocking-station/data
+- /p5/flocking-station/temp-data
 
-/nyaa-os
-/nyaa-os/flocking-universon
-/nyaa-os/games/jump-duck
-/nyaa-os/boot0loader/leg
+- /nyaa-os
+- /nyaa-os/flocking-universon
+- /nyaa-os/games/jump-duck
+- /nyaa-os/boot0loader/leg
 
-/data/gen-images
-/data/savefiles/001/save.txt
-/data/savefiles/001/log.txt
-/data/savefiles/001/imgs/001.bmp
+- /data/gen-images
+- /data/savefiles/001/save.txt
+- /data/savefiles/001/log.txt
+- /data/savefiles/001/imgs/001.bmp
 
-/builds/fm1
+- /builds/fm1
 
 
 ## serial-comminicator
